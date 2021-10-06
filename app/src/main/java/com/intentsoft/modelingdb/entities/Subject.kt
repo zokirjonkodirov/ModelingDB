@@ -8,9 +8,7 @@ import androidx.room.PrimaryKey
  * @date 06.10.2021
  */
 @Entity
-data class Student(
+data class Subject(
     @PrimaryKey(autoGenerate = false)
-    val studentName: String,
-    val semester: Int,
-    val schoolName: String
+    val subjectName: String
 )
